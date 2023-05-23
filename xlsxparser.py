@@ -3,7 +3,7 @@ from openpyxl.workbook import Workbook
 from openpyxl.worksheet import worksheet
 from loguru import logger
 from math import floor
-from utils import int_try_parse
+from .utils import int_try_parse
 
 class Parser():
 
